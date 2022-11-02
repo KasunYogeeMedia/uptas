@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+font,
+img,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+li,
+ul {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* --------------- font family goes here --------------- */
+
+/* --------------- remove apple's default styling --------------- */
+input[type="text"] {
+    border-radius: 0;
+    /* padding:1px 0 1px 2px; */
+    -webkit-appearance: none;
+}
+
+input[type="button"],
+input[type="submit"],
+textarea {
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+/* --------------- common input style --------------- */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    border: 1px solid #eee;
+    /* padding:3%; */
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.banner {
+    background-image: url(../img/main_banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 652px;
+}
+
+ul.navbar-nav.mr-auto {
+    margin: auto;
+}
+
+.contact-details {
+    display: flex;
+    padding-right: 25px;
+}
+
+.carousel-item img {
+    height: auto;
+    max-width: 434px;
+    float: right;
+}
+
+
+.carousel-item h6{
+    color: black;
+    font-size: 35px;
+}
+
+.carousel-item h1{
+    color: black;
+    font-size: 50px;
+}
+
+.carousel-item p {
+    color: black;
+    font-size: 20px;
+}
+
+.main-content {
+    margin-bottom: 176px;
+    /* right: 68px; */
+    margin-left: -9%;
+}
+
+.main .container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#card-item .card-set .row {
+    margin-top: -126px;
+}
+
+#learning .row{
+    margin-top: 45px;
+}
+
+#work .work-list {
+    display: inline-flex;
+}
+
+.stretch-card>.card {
+    width: 100%;
+    min-width: 100%
+}
+
+
+
+  #qualities{
+    background-image: url(../img/what\ people\ choose.png);
+    background-color: #09095e;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-width: 100%;
+    min-height: 450px;
+  }
+
+  h1.title {
+    font-size: 40px;
+    color: #ffff;
+}
+
+  p.description {
+    font-size: 22px;
+    color: #ffff;
+}
+
+.sub-content {
+    display: inline-flex;
+    color: #fff;
+}
+
+.sub-content h4{
+    font-size: 21px;
+}
+
+.question-area {
+    margin-top: -85px;
+    color: #000;
+    display: inline-flex;
+    /* background: #fff; */
+    width: 100%;
+    background: #fff;
+    padding-top: 25px;
+}
+
+.row.tuto {
+    margin-top: 139px;
+}
+
+#footer{
+    background-image: url(../img/main_banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+}
+
+.footer-right {
+    display: inline-flex;
+}
+
+
+form.form-inline.my-2.my-lg-0 {
+    display: inline-flex;
+}
+
+
+/* -----------------------------------------------NAV BAR------------------------------------------------------- */
+.navbar-brand img {
+    width: 86px;
+}
+
+ul.navbar-nav {
+    padding-left: 59px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    padding-left: 85px;
+}
+
+a.nav-link {
+    color: #163dac;
+}
+
+.contact-details img {
+    width: 34px;
+    height: auto;
+}
+
+.contact-details {
+    display: flex;
+    padding-right: 16px;
+}
+.contact-no {
+    padding-left: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+button.btn.btn-outline-success {
+    background: #163dac;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 136px;
+    height: 40px;
+    border-radius: 0;
+}
+
+/* ----------------------------------------------------CAROUSEL------------------------------------------------------ */
+.carousel-caption {
+    position: relative;
+    right: 15%;
+    bottom: -224px;
+    left: 9%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-item h6 {
+    font-size: 24px;
+    color: #163dac;
+    font-weight: 400;
+}
+
+.carousel-item h1 {
+    color: black;
+    font-size: 70px;
+    font-weight: 700;
+    color: #163dac;
+    line-height: 1.1;
+}
+
+
