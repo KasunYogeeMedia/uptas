@@ -333,7 +333,7 @@ button.btn.btn-outline-success {
   color: #112f82;
   font-weight: bold;
 }
-#borderLeft {
+#borderbottom {
   border-bottom: 5px solid #173ead;
   width: 286px;
   margin: auto;
@@ -393,7 +393,41 @@ button.btn.btn-outline-success {
   height: 26px;
   font-size: 25px;
 }
+.work-list p {
+  font-size: 20px;
+  line-height: 24.38px;
+  color: #000;
+}
+.blue_shadow {
+  -webkit-box-shadow: 80px -80px 0px 1px #173ead;
+  box-shadow: 80px -80px 0px 1px #173ead;
+  margin-top: 70px;
+}
 /* ----------------------------------------------------Mobile Resposive------------------------------------------------------ */
+/* ----------------------------------------------------TESTIMONIALS section------------------------------------------------------ */
+
+.testi {
+  margin-top: 80px;
+}
+.testi-heading {
+  margin-bottom: 60px;
+}
+.testi-heading h4 {
+  color: #112f82;
+  font-size: 20px;
+  line-height: 24.38px;
+}
+.testi-heading h2 {
+  font-size: 31.25px;
+  line-height: 38.09px;
+  color: #112f82;
+  font-weight: bold;
+}
+.testi-heading p {
+  font-size: 16px;
+  line-height: 19.5px;
+}
+
 @media screen and (max-width: 567px) {
   .card-item .card {
     width: 100%;
