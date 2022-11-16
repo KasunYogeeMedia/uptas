@@ -403,7 +403,7 @@ button.btn.btn-outline-success {
   box-shadow: 80px -80px 0px 1px #173ead;
   margin-top: 70px;
 }
-/* ----------------------------------------------------Mobile Resposive------------------------------------------------------ */
+
 /* ----------------------------------------------------TESTIMONIALS section------------------------------------------------------ */
 
 .testi {
@@ -427,6 +427,44 @@ button.btn.btn-outline-success {
   font-size: 16px;
   line-height: 19.5px;
 }
+.testi-content .content {
+  padding: 50px;
+}
+.testi-content .owl_img {
+  border-radius: 50%;
+}
+.testi-content .owl_cap {
+  display: block;
+  font-size: 16px;
+  line-height: 19.5px;
+  border-radius: 50%;
+}
+.testi-content .owl_text {
+  -webkit-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 17.07px;
+  padding: 10px 10px 30px 10px;
+  margin-top: 30px;
+}
+/* ----------------------------------------------------Qualities Section------------------------------------------------------ */
+.qualities {
+  background-image: url(../img/what\ people\ choose.png);
+  background-color: #09095e;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-width: 100%;
+  min-height: 450px;
+  padding-top: 65px;
+}
+.qualities .title{
+  font-weight: 700;
+  font-size: 48.83px;
+  line-height: 59.52px;
+}
+/* ----------------------------------------------------Mobile Resposive------------------------------------------------------ */
 
 @media screen and (max-width: 567px) {
   .card-item .card {
