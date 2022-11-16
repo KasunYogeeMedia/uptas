@@ -2,7 +2,9 @@
   padding: 0;
   margin: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* html,
 body,
 div,
@@ -126,17 +128,6 @@ ul.navbar-nav.mr-auto {
   min-width: 100%;
 }
 
-#qualities {
-  background-image: url(../img/what\ people\ choose.png);
-  background-color: #09095e;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  min-width: 100%;
-  min-height: 450px;
-}
-
 h1.title {
   font-size: 40px;
   color: #ffff;
@@ -154,33 +145,6 @@ p.description {
 
 .sub-content h4 {
   font-size: 21px;
-}
-
-.question-area {
-  margin-top: -85px;
-  color: #000;
-  display: inline-flex;
-  /* background: #fff; */
-  width: 100%;
-  background: #fff;
-  padding-top: 25px;
-}
-
-.row.tuto {
-  margin-top: 139px;
-}
-
-#footer {
-  background-image: url(../img/main_banner.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  min-height: 400px;
-}
-
-.footer-right {
-  display: inline-flex;
 }
 
 form.form-inline.my-2.my-lg-0 {
@@ -253,7 +217,7 @@ button.btn.btn-outline-success {
 
 .carousel-caption {
   text-align: left;
-  position: relative;
+  position: absolute;
   top: 12vw;
   z-index: 10;
   padding-top: 20px;
@@ -261,6 +225,7 @@ button.btn.btn-outline-success {
   color: #fff;
   left: 0;
   width: 60%;
+  background: #ffffff8c;
 }
 
 .carousel-item h6 {
@@ -459,16 +424,286 @@ button.btn.btn-outline-success {
   min-height: 450px;
   padding-top: 65px;
 }
-.qualities .title{
+.qualities .title {
   font-weight: 700;
   font-size: 48.83px;
   line-height: 59.52px;
 }
-/* ----------------------------------------------------Mobile Resposive------------------------------------------------------ */
 
+/* ----------------------------------------------------qualities section------------------------------------------------------ */
+#qualities {
+  background-image: url(../img/what\ people\ choose.png);
+  background-color: #09095e;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-width: 100%;
+  min-height: 450px;
+  padding-bottom: 80px;
+}
+.qualities-right .details {
+  color: #fff;
+}
+
+/* ----------------------------------------------------question section------------------------------------------------------ */
+
+.question-area {
+  margin-top: -65px;
+  color: #000;
+  display: inline-flex;
+  /* background: #fff; */
+  width: 100%;
+  background: #fff;
+  padding: 35px 20px;
+}
+.question-area .row {
+  width: 100%;
+}
+.question-area h2 {
+  font-size: 31.25px;
+  line-height: 38.09px;
+  color: #173ead;
+  font-weight: 700;
+}
+.question-area p {
+  font-size: 20px;
+  line-height: 24.38px;
+}
+.question-area form .btn {
+  font-size: 16px;
+  background-color: #173ead;
+  border-color: #173ead;
+  border-radius: 0;
+}
+/* ----------------------------------------------------tutor section------------------------------------------------------ */
+
+.tutor {
+  margin-top: 80px;
+}
+.tutor-des h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+.tutor-des h5 {
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 38.09px;
+}
+.tutor-des p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+.tutor-des .btn {
+  background-color: #173ead;
+  border-color: #173ead;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+}
+.tutor-des #borderbottom {
+  margin: unset;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.tutor .blue_shadow {
+  -webkit-box-shadow: 50px -50px 0px 1px #173ead;
+  box-shadow: 50px -50px 0px 1px #173ead;
+}
+.tutor .image {
+  text-align: end;
+}
+
+/* ----------------------------------------------------form_sec section------------------------------------------------------ */
+
+#form_sec {
+  background-image: url(../img/main_banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 400px;
+}
+.form_sec {
+  margin-top: 100px;
+}
+
+.form_sec-right {
+  display: inline-flex;
+}
+.form_sec-content h2 {
+  color: #173ead;
+  font-size: 48.83px;
+  line-height: 59.52px;
+  font-weight: 700;
+}
+.form_sec .description {
+  font-size: 16px;
+  line-height: 19.5px;
+}
+.bl_num {
+  font-size: 25px;
+  line-height: 30.48px;
+  font-weight: 700;
+  background-color: #173ead;
+  width: 31px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 6px;
+  color: #fff;
+}
+.bl_txt {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+.form_sec-right .form {
+  padding: 20px;
+  background-color: #173ead;
+}
+.form_sec-right .form h2 {
+  font-weight: 700;
+  font-size: 61.04px;
+  line-height: 74px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.form_sec-right .form p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+.form_sec-right .form-group {
+  margin-bottom: 15px;
+}
+.form_sec-right input,
+.form_sec-right button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  padding: 10px;
+  background-color: #fff;
+}
+.form_sec-right .form .last-des {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 26px;
+}
+.img-form_sec img {
+  padding-top: 90px;
+}
+.form_sec-description {
+  margin-top: 70px;
+}
+/* ----------------------------------------------------last-row------------------------------------------------------ */
+
+.footer-logo img {
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+}
+
+.text-capt {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 40px;
+}
+.text-capt a {
+  color: #ff5757;
+  text-decoration: none;
+}
+/* ----------------------------------------------------Animation section------------------------------------------------------ */
+.section{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.section.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* ----------------------------------------------------Mobile Resposive------------------------------------------------------ */
+@media screen and (max-width: 991px) {
+  ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    padding-left: 10px;
+  }
+}
 @media screen and (max-width: 567px) {
+  .top_slider {
+    height: 182vw;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  .carousel-item h6 {
+    font-size: 4vw;
+  }
+  .carousel-item h1 {
+    font-size: 10vw;
+    margin-top: 3vw;
+  }
+  .carousel-item p {
+    font-size: 6vw;
+  }
   .card-item .card {
     width: 100%;
     text-align: center;
   }
+  .qualities-right .image {
+    margin: 0 20px 20px 20px;
+  }
+  .qualities-right .details {
+    text-align: center;
+  }
+  .question-area form .btn {
+    font-size: 12px;
+  }
+  .tutor-des {
+    margin-bottom: 20px;
+  }
+  .tutor .image {
+    text-align: center;
+  }
+  .footer_logo {
+    margin: 20px auto;
+  }
+  .footer_logo,
+  .text-capt {
+    text-align: center;
+  }
+  .text-capt {
+    margin-top: 10px;
+  }
+  .form_sec-description {
+    margin-top: 0;
+  }
+  .img-form_sec img {
+    padding-top: 0;
+    width: 100%;
+  }
+  .tutor {
+    margin-top: 40px;
+  }
+  .form_sec {
+    margin-top: 50px;
+  }
+  .testi-heading {
+    margin-bottom: 20px;
+  }
 }
+
+
+
