@@ -622,14 +622,14 @@ button.btn.btn-outline-success {
   text-decoration: none;
 }
 /* ----------------------------------------------------Animation section------------------------------------------------------ */
-.section{
+.section {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: 1s all ease;
 }
 
-.section.active{
+.section.active {
   transform: translateY(0);
   opacity: 1;
 }
@@ -662,6 +662,14 @@ button.btn.btn-outline-success {
     width: 100%;
     text-align: center;
   }
+  .work .individuals,
+  .work .group {
+    margin: 20px 10px;
+  }
+  .work-img {
+    margin: auto 20%;
+    margin-top: 20px;
+  }
   .qualities-right .image {
     margin: 0 20px 20px 20px;
   }
@@ -676,6 +684,8 @@ button.btn.btn-outline-success {
   }
   .tutor .image {
     text-align: center;
+    margin: auto 10%;
+    margin-top: 20px;
   }
   .footer_logo {
     margin: 20px auto;
@@ -704,6 +714,3 @@ button.btn.btn-outline-success {
     margin-bottom: 20px;
   }
 }
-
-
-
