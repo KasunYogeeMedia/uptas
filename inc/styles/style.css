@@ -641,6 +641,11 @@ button.btn.btn-outline-success {
   }
 }
 @media screen and (max-width: 567px) {
+  .blue_shadow {
+    -webkit-box-shadow: 40px -40px 0px 1px #173ead;
+    box-shadow: 40px -40px 0px 1px #173ead;
+    margin-top: 40px;
+  }
   .top_slider {
     height: 182vw;
   }
@@ -667,7 +672,7 @@ button.btn.btn-outline-success {
     margin: 20px 10px;
   }
   .work-img {
-    margin: auto 20%;
+    margin: auto 15%;
     margin-top: 20px;
   }
   .qualities-right .image {
