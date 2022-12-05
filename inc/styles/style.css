@@ -640,6 +640,16 @@ button.btn.btn-outline-success {
     padding-left: 10px;
   }
 }
+@media screen and (max-width: 768px) {
+  .card-item .card {
+    width: 100%;
+    text-align: center;
+  }
+  .card2,
+  .card3{
+    margin-top: 10px;
+  }
+}
 @media screen and (max-width: 567px) {
   .blue_shadow {
     -webkit-box-shadow: 40px -40px 0px 1px #173ead;
@@ -649,7 +659,7 @@ button.btn.btn-outline-success {
   .top_slider {
     height: 182vw;
   }
-  .carousel-caption{
+  .carousel-caption {
     top: unset;
     bottom: 0;
     width: 100%;
@@ -668,10 +678,7 @@ button.btn.btn-outline-success {
   .carousel-item p {
     font-size: 6vw;
   }
-  .card-item .card {
-    width: 100%;
-    text-align: center;
-  }
+
   .work .individuals,
   .work .group {
     margin: 20px 10px;
@@ -722,5 +729,159 @@ button.btn.btn-outline-success {
   }
   .testi-heading {
     margin-bottom: 20px;
+  }
+}
+
+/* About us page css */
+/* ----------------------------------------------------default banner------------------------------------------------------ */
+.default_banner {
+  padding: 50px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.db_left {
+  width: 50%;
+  text-align: center;
+}
+.db_left img {
+  border-radius: 50%;
+  margin: auto;
+  max-width: 300px;
+}
+.db_right {
+  width: 70%;
+}
+.bnr_title,
+.bnr_subtitle,
+.bnr_p {
+  color: #fff;
+}
+.bnr_subtitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+.bnr_title {
+  font-weight: bold;
+}
+.db_right .so_icon {
+  width: 100%;
+  height: auto;
+  max-width: 40px;
+}
+.db_right .btn {
+  margin-right: 50px;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+/* ----------------------------------------------------we are secion------------------------------------------------------ */
+.we_are {
+  padding-top: 40px;
+}
+.we_are p {
+  font-weight: bold;
+}
+.blue {
+  color: rgb(23 62 173);
+  text-transform: uppercase;
+}
+.we_are .num {
+  color: #6183e4;
+  font-size: 60px;
+  font-weight: bold;
+}
+.we_are .box {
+  /* border: 2px solid #000; */
+  -webkit-box-shadow: 0px 0px 10px -2px #000000;
+  box-shadow: 0px 0px 10px -2px #000000;
+  padding: 20px;
+  margin-top: 20px;
+}
+.cpt .capt {
+  background-color: #6183e4;
+  padding: 20px;
+  min-height: 300px;
+}
+.cpt .capt p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.capt_img .img_sec {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.col-container {
+  display: table;
+  width: 100%;
+}
+.colm {
+  display: table-cell;
+}
+.col-img {
+  width: 30%;
+}
+.col-cap {
+  width: 70%;
+}
+.capt_img {
+  min-height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ----------------------------------------------------Bottom banner------------------------------------------------------ */
+.bot_ban_img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 70px;
+}
+.bot_ban_capt h2,
+.bot_ban_capt span,
+.bot_ban_capt .btn {
+  color: #fff;
+  font-weight: bold;
+}
+.bot_ban_capt {
+  background-color: #0000006b;
+  padding: 20px;
+}
+.bot_ban_capt .btn {
+  border-radius: 0;
+  background-color: #163dac;
+  border-color: #163dac;
+}
+/* ----------------------------------------------------Mobile Resposive------------------------------------------------------ */
+@media screen and (max-width: 768px) {
+  .db_left,
+  .db_right {
+    display: block;
+    width: 100%;
+  }
+  .db_right .so_icon {
+    max-width: 30px;
+  }
+  .db_left img {
+    max-width: 200px;
+    margin-bottom: 30px;
+  }
+  .db_left {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mob-pad {
+    margin-top: 20px;
+  }
+  .col-sm-8 .mob-pad {
+    min-height: 100px;
+  }
+  .bot_ban_img {
+    padding: 20px;
   }
 }
